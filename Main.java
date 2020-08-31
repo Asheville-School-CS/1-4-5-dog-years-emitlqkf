@@ -8,9 +8,9 @@ class Main {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter your birth year: ");
     // TODO: Set birth year equal to the input value.
-
+    birthYear = input.nextint();
     System.out.println("Enter your dog's birth year: ");
-    // TODO: Set dogBirthYear equal to the input.
+    dogBirthYear = input.next();
     
     System.out.println("Enter the current year: ");
     // TODO: Set the currentYear equal to the input.
