@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 2001",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "2001\r\n2001",
+      "output": "19.*133",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "1983\r\n2011",
+      "output": "37.*63",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
