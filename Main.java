@@ -20,6 +20,6 @@ class Main {
     humanAge = currentYear - birthYear;
 
     System.out.println("Human: " + humanAge + " Dog: " + dogsAge);
-    s
+
   }
 }
