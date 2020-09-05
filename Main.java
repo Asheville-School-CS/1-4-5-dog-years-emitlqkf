@@ -21,5 +21,6 @@ class Main {
 
     System.out.println("Human: " + humanAge + " Dog: " + dogsAge);
 
+
   }
 }
